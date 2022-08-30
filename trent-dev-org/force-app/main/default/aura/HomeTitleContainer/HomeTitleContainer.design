@@ -1,0 +1,3 @@
+<design:component>
+    <design:attribute name="limiter" label="Limit Titles" description="Limit the number of Titles displayed"/>
+</design:component>

@@ -1,0 +1,15 @@
+<aura:component >
+    <aura:attribute name="title" type="Title__c" />
+    
+	<div class="genre"> 
+    {!v.title.Genre__c}
+    </div>
+    
+    <div class="slds-p-horizontal_small clickable">
+        <img class="thumbnail" src="{!v.title.Thumbnail__c}"/>
+    </div>
+    
+    <div class="rating">
+    {!v.title.Rating__c}
+    </div>
+</aura:component>

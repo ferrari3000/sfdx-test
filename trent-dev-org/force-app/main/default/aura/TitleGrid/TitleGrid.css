@@ -1,0 +1,21 @@
+.THIS .clickable{
+    cursor: pointer;
+}
+
+.THIS .thumbnail{ 
+    max-height: 170px;
+    max-width: 75%;
+    margin-left: 30%;
+}
+
+.THIS .genre{
+    margin-left: 40%;
+    margin-right: 35%;
+    
+}
+
+.THIS .rating{
+    margin-left: 40%;
+    margin-right: 35%;
+    
+}

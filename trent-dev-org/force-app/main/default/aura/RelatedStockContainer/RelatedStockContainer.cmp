@@ -1,0 +1,7 @@
+<aura:component description="RelatedStockContainer" controller="RelatedStockAuraService" implements="flexipage:availableForAllPageTypes" >
+    <aura:attribute name="title" type="Title__c" />
+    <aura:attribute name ="stocks" type = "Stock__c[]" />
+	
+    Related Stock Container
+    
+</aura:component>
