@@ -1,21 +1,32 @@
-.THIS .clickable{
+.THIS .clickable {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-.THIS .thumbnail{ 
+.THIS .slds-card__header {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.THIS .thumbnail { 
     max-height: 170px;
     max-width: 75%;
-    margin-left: 30%;
 }
 
-.THIS .genre{
-    margin-left: 40%;
-    margin-right: 35%;
-    
+.THIS .genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-.THIS .rating{
-    margin-left: 40%;
-    margin-right: 35%;
-    
+.THIS .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }

@@ -1,4 +1,4 @@
-<aura:component controller="HomeTitleAuraService" description="HomeTitleContainer" implements="flexipage:availableForAllPageTypes">
+<aura:component controller="HomeTitleAuraService" description="HomeTitleContainer" implements="flexipage:availableForAllPageTypes,force:hasRecordId">
     <aura:attribute name="limiter" type="integer" default="4" />
     <aura:attribute name="titles" type="Title__c[]" />
     

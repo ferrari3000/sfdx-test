@@ -2,6 +2,6 @@
     <aura:attribute name="title" type="Title__c" />
     <aura:attribute name ="stocks" type = "Stock__c[]" />
 	
-    Related Stock Container
+    <!-- Related Stock Container -->
     
 </aura:component>

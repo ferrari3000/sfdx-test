@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Cannot_Go_Over_5</fullName>
+    <active>true</active>
+    <description>Limits reviews to max of 5</description>
+    <errorConditionFormula>Star_Rating__c  &lt; 0 || Star_Rating__c  &gt; 5</errorConditionFormula>
+    <errorMessage>Reviews can only be from 0-5</errorMessage>
+</ValidationRule>
