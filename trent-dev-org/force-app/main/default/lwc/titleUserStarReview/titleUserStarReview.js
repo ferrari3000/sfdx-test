@@ -49,7 +49,7 @@ export default class TitleUserStarReview extends LightningElement {
     //called on lwc load
     connectedCallback() {
         if (this.reviewRating) {
-            this.getStars(this.reviewRating);
+            //this.getStars(this.reviewRating);
         }
     }
 
