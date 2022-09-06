@@ -5,7 +5,7 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>limiter</name>
-                    <value>3</value>
+                    <value>4</value>
                 </componentInstanceProperties>
                 <componentName>HomeTitleContainer</componentName>
                 <identifier>c_HomeTitleContainer</identifier>
