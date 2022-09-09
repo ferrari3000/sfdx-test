@@ -16,10 +16,6 @@
                 <field>Genre__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Average_Review__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Thumbnail__c</field>
             </layoutItems>

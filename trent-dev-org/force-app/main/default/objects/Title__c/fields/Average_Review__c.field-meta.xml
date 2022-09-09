@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Average_Review__c</fullName>
     <externalId>false</externalId>
-    <description>Uses rollup summary fields to calculate user average.</description>
+    <description></description>
     <formula>Review_Sum__c /  Review_Count__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Average Review</label>
