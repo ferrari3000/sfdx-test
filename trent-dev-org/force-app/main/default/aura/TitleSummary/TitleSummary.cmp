@@ -13,7 +13,7 @@
         {!v.title.Rating__c}
     </div>
     <div class="user-review">
-        <!-- <c:titleUserStarReview reviewRating="{!v.title.Average_Review__c}"
-        ></c:titleUserStarReview> -->
+        <c:titleUserStarReview reviewRating="{!v.title.Average_Review__c}"
+        ></c:titleUserStarReview>
     </div>
 </aura:component>
